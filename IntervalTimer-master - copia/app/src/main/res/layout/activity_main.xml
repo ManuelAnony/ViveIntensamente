@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#919191"
+    tools:context="com.dev.iccaka.MainActivity">
+
+    <Button
+        android:id="@+id/cronometro"
+        android:layout_width="138dp"
+        android:layout_height="71dp"
+        android:background="@drawable/buton_de_cronometro_fin"
+        android:onClick="tiempo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcrono"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/ejercicio"
+        android:layout_width="138dp"
+        android:layout_height="71dp"
+        android:background="@drawable/buton_de_ejercicio_fin"
+        android:onClick="ejercicios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/progreso"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textejer"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/progreso"
+        android:layout_width="138dp"
+        android:layout_height="71dp"
+        android:background="@drawable/buton_de_progreso_fin"
+        android:onClick="progreso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textprog"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textejer"
+        android:layout_width="138dp"
+        android:layout_height="32dp"
+        android:text="@string/ejercicios"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#A6FF3C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textprog"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viveimg"
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textcrono"
+        android:layout_width="179dp"
+        android:layout_height="34dp"
+        android:text="@string/cronometro"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#A6FF3C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ejercicio"
+        app:layout_constraintVertical_bias="0.089"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/viveimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titulo_interfaz_fin_v2"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:src="@drawable/pesa_rusa"
+        app:layout_constraintBottom_toTopOf="@+id/viveimg"
+        app:layout_constraintEnd_toEndOf="@+id/viveimg"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/textprog"
+        android:layout_width="138dp"
+        android:layout_height="32dp"
+        android:text="@string/progreso"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#A6FF3C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viveimg"
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Puntaje"
+        android:layout_width="138dp"
+        android:layout_height="32dp"
+        android:text="@string/_000"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#A6FF3C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/viveimg"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+</android.support.constraint.ConstraintLayout>

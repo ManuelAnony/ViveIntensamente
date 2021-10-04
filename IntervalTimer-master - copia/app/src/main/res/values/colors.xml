@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#A6FF00</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+
+    <!--colodots-->
+    <color name="dot_1">#FF03DAC5</color>
+    <color name="dot_2">#FF018786</color>
+    <color name="dot_3">#FF3700B3</color>
+
+    <array name="array_dot">
+        <item>@color/dot_1</item>
+        <item>@color/dot_2</item>
+        <item>@color/dot_3</item>
+    </array>
+</resources>

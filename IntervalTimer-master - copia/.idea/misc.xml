@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_carga.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_completo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_ejercicios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_espera2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_inferiro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_intervalo.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_metas.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_mostrar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_mostrar2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_progreso.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_registro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_registro2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_superior.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/activity_timer.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/content_inferiro.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/content_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/Documents/Proyecto documentos/IntervalTimer-master - copia-20210927T070051Z-001/IntervalTimer-master - copia/IntervalTimer-master - copia/app/src/main/res/layout/fragmen_slider.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

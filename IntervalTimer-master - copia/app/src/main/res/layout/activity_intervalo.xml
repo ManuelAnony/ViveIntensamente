@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#919191"
+    tools:context="com.dev.iccaka.IntervaloActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/setsText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/monkey"
+                    android:gravity="center_horizontal"
+                    android:text="Series"
+                    android:textColor="#A6FF3C"
+                    android:textSize="32sp" />
+
+                <LinearLayout
+                    android:id="@+id/setsLinear"
+                    android:layout_width="270dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/setsText">
+
+                    <Button
+                        android:id="@+id/setsMinusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/menos"
+                        android:onClick="decrementSets"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+                    <TextView
+                        android:id="@+id/setsQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/monkey"
+                        android:freezesText="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/starting_sets_main"
+                        android:textColor="#A6FF3C"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:id="@+id/setsPlusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/mas"
+                        android:onClick="incrementSets"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/workText"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/monkey"
+                    android:gravity="center_horizontal"
+                    android:text="Ejercitarse"
+                    android:textColor="#A6FF3C"
+                    android:textSize="32sp"
+                    app:layout_constraintTop_toBottomOf="@+id/setsLinear" />
+
+                <LinearLayout
+                    android:id="@+id/workLinear"
+                    android:layout_width="270dp"
+                    android:layout_height="78dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/workText">
+
+                    <Button
+                        android:id="@+id/workMinusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/menos"
+                        android:onClick="decrementWork"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+                    <TextView
+                        android:id="@+id/workQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/monkey"
+                        android:freezesText="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/starting_work"
+                        android:textColor="#A6FF3C"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:id="@+id/workPlusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/mas"
+                        android:onClick="incrementWork"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/restText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/monkey"
+                    android:gravity="center_horizontal"
+                    android:text="Descanso"
+                    android:textColor="#A6FF3C"
+                    android:textSize="32sp"
+                    app:layout_constraintTop_toBottomOf="@+id/workLinear" />
+
+                <LinearLayout
+                    android:id="@+id/restLinear"
+                    android:layout_width="268dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/restText">
+
+                    <Button
+                        android:id="@+id/restMinusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/menos"
+                        android:onClick="decrementRest"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+
+                    <TextView
+
+                        android:id="@+id/restQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/monkey"
+                        android:freezesText="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/starting_rest"
+                        android:textColor="#A6FF3C"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:id="@+id/restPlusBtn"
+                        android:layout_width="61dp"
+                        android:layout_height="61dp"
+                        android:background="@drawable/mas"
+                        android:onClick="incrementRest"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.135"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.236" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000">
+
+            </View>
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#A6FF3C"
+                android:fontFamily="@font/monkey"
+                android:onClick="timerStart"
+                android:text="empezar"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="46sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/regresar_principal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/regresar"
+        android:onClick="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+</RelativeLayout>

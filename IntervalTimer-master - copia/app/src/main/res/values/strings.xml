@@ -1,0 +1,68 @@
+<resources>
+    <string name="paused_app_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+    <string name="app_name">Vive Intensamente</string>
+    <string name="paused_app_notification_title_template">Paused app: %1$s</string>
+    <string name="starting_sets_main">  12   </string>
+    <string name="starting_sets_timer">12</string>
+    <string name="starting_work">01 : 30</string>
+    <string name="starting_rest">00 : 30</string>
+    <string name="text_sets">Sets </string>
+    <string name="text_work">Work Interval</string>
+    <string name="text_rest">Rest Interval</string>
+    <string name="text_motivational_timer">Preparate</string>
+    <string name="text_motivational_timer_2">Entrena</string>
+    <string name="text_paused_timer">Pausa</string>
+    <string name="btn_start">empezar</string>
+    <string name="btn_end">manten Presionado para salir</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_pause">Pausa</string>
+    <string name="sign_minus">-</string>
+    <string name="sign_plus">+</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_registro">MainActivity</string>
+    <string name="title_activity_progreso">MainActivity</string>
+    <string name="title_activity_ejercicios">EjerciciosActivity</string>
+    <string name="title_activity_superior">SuperiorActivity</string>
+    <string name="title_activity_inferiro">InferiroActivity</string>
+    <string name="title_activity_completo">CompletoActivity</string>
+    <string name="title_activity_carga">CargaActivity</string>
+    <string name="title_activity_espera2">Leanback Title</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="ejercicios">Ejercicios</string>
+    <string name="cronometro">cronometro</string>
+    <string name="progreso">progreso</string>
+    <string name="_000">000</string>
+    <string name="cuerpo_completo">cuerpo completo</string>
+</resources>
